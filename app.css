@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'qanelassoft heavy';
+  src: url("https://cdn.thunderbite.com/buzzbingo/wheels/campaigns/buzz-diamond-wheel/fonts/qanelassoft-heavy-webfont.ttf") format("truetype");
+  src: url("https://cdn.thunderbite.com/buzzbingo/wheels/campaigns/buzz-diamond-wheel/fonts/qanelassoft-heavy-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: 'qanelassoft medium';
+  src: url("https://cdn.thunderbite.com/buzzbingo/wheels/campaigns/buzz-diamond-wheel/fonts/qanelassoft-medium-webfont.ttf") format("truetype");
+  src: url("https://cdn.thunderbite.com/buzzbingo/wheels/campaigns/buzz-diamond-wheel/fonts/qanelassoft-medium-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: 'qanelassoft extrabold';
+  src: url("https://cdn.thunderbite.com/buzzbingo/wheels/campaigns/buzz-diamond-wheel/fonts/qanelassoft-extrabold-webfont.ttf") format("truetype");
+  src: url("https://cdn.thunderbite.com/buzzbingo/wheels/campaigns/buzz-diamond-wheel/fonts/qanelassoft-extrabold-webfont.woff") format("woff"); }
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  height: 100%; }
+
+body.day {
+  background: #20c8ff;
+  background: linear-gradient(180deg, #20c8ff 0%, #a5faff 100%); }
+
+body.night {
+  background: linear-gradient(180deg, #0e2639 0%, #03426a 100%); }
+
+.application {
+  height: 100%; }
+  .application section {
+    height: 100%; }
+
+canvas {
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  top: 0; }
+
+#bottomWrap {
+  left: 0;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  position: fixed;
+  display: block; }
+  @media screen and (orientation: landscape) {
+    #bottomWrap .portrait {
+      display: none !important; } }
+  @media screen and (orientation: portrait) {
+    #bottomWrap .portrait {
+      display: block !important; } }
+  #bottomWrap .landscape {
+    display: none !important; }
+    @media screen and (orientation: landscape) {
+      #bottomWrap .landscape {
+        display: block !important; } }
+    @media screen and (orientation: portrait) {
+      #bottomWrap .landscape {
+        display: none !important; } }
+
+#confetti-canvas {
+  position: absolute;
+  top: 0;
+  max-width: 100%;
+  z-index: 0 !important; }
+
+.page {
+  width: 100%; }
+
+.wave {
+  position: absolute; }
+
+.d1 {
+  top: -20%;
+  left: -17%;
+  width: 30%;
+  transform: rotate(-35deg); }
+
+.d2 {
+  top: 20%;
+  width: 5%;
+  left: 15%; }
+
+.d3 {
+  top: 50%;
+  width: 3%;
+  left: 17%; }
+
+.d4 {
+  top: 70%;
+  width: 10%;
+  left: -5%; }
+
+.d5 {
+  width: 4%;
+  left: 19%;
+  top: 70%; }
+
+.d6 {
+  width: 2.5%;
+  left: 30%;
+  bottom: 10%; }
+
+.d7 {
+  right: 40%;
+  bottom: 15%;
+  width: 4%; }
+
+.d8 {
+  bottom: 19%;
+  right: 20%;
+  width: 5%; }
+
+.d9 {
+  right: 35%;
+  width: 2.5%;
+  top: 33%; }
+
+.d10 {
+  right: 15%;
+  top: 10%;
+  width: 5.5%; }
+
+.d11 {
+  right: -8%;
+  width: 14%;
+  top: 22%; }
+
+.d12 {
+  width: 3.5%;
+  right: 25%;
+  top: 46%; }
+

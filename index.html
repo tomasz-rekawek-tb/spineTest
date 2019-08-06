@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <title> Game </title>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+    
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Open the Box">
+
+    <base href="/" />
+    
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,MutationObserver,es5,es6,console.info"></script>
+    
+    <link rel="stylesheet" href="app.css" />
+
+    <script>
+
+        //var config = {};
+        	
+		window.config = {};
+	
+            window.config =     { 
+                api: {
+                    // post gameId
+                    prize: 'http://localhost:8080/api.json',
+                },
+                "game":"eyJpdiI6IlNMaTVNTFViSjVGOUtBWXpubFloRWc9PSIsInZhbHVlIjoiMitmSFwvVElhM3VDRWxoaW0yZHR1ZlE9PSIsIm1hYyI6IjI5NTQ2MDYzMzA1Y2YzY2M1NDAzNzYwNzI3NmVkYzljMzMxODlkOTgzNThhZTIyMGVhOWZmYzJmMDk2ZDZjMGMifQ==",
+                "debug":false,
+                "iframe":false,
+                "closebutton":null,
+                "backurl":null,
+                "acceptUrl":"\/api\/game\/accept",
+                "declineUrl":"\/api\/game\/decline",
+                "texts":{  
+                    "link": "Lorem ipsum",
+                    "title":"Title",
+                    "prize":"100€",
+                    "prizeSub":"BONUS CASINO",
+                    "terms":`<p style="text-align:center; font-weight: bold"> Lorem Ipsum </p> </p></p>
+                        Lorem ipsum dolor sit amet </br>
+                        lorem <br/>
+                        Terms and Condition
+                        <p style="text-align:center; font-weight: bold"> Terms & Conditions </p> </p></p>`
+                },
+                "prize":{  
+                    "prizeRegular":{  
+                        "image":"images\/prize_glow.png"
+                    },
+                    "prizeGlow":{  
+                        "image":"images\/prize_glow.png"
+                    }
+                },
+
+            }	
+        
+    </script>
+</head>
+<body>
+    <script src="app.min.js"></script>
+</body>
+</html>

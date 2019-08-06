@@ -1,0 +1,132 @@
+
+skeleton.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/box
+  rotate: false
+  xy: 514, 1174
+  size: 493, 401
+  orig: 493, 401
+  offset: 0, 0
+  index: -1
+images/burst
+  rotate: false
+  xy: 1016, 1705
+  size: 561, 313
+  orig: 561, 313
+  offset: 0, 0
+  index: -1
+images/flare
+  rotate: false
+  xy: 2, 30
+  size: 500, 405
+  orig: 500, 405
+  offset: 0, 0
+  index: -1
+images/glow
+  rotate: false
+  xy: 1579, 1692
+  size: 400, 326
+  orig: 400, 326
+  offset: 0, 0
+  index: -1
+images/lamp
+  rotate: false
+  xy: 2, 939
+  size: 510, 1079
+  orig: 510, 1079
+  offset: 0, 0
+  index: -1
+images/logo
+  rotate: false
+  xy: 1032, 907
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+images/messageContainer
+  rotate: false
+  xy: 504, 2
+  size: 500, 208
+  orig: 500, 208
+  offset: 0, 0
+  index: -1
+images/spotlight
+  rotate: false
+  xy: 1009, 1309
+  size: 510, 104
+  orig: 510, 104
+  offset: 0, 0
+  index: -1
+images/stage
+  rotate: true
+  xy: 1006, 3
+  size: 400, 168
+  orig: 400, 168
+  offset: 0, 0
+  index: -1
+images/subBurst
+  rotate: true
+  xy: 1176, 57
+  size: 346, 180
+  orig: 346, 180
+  offset: 0, 0
+  index: -1
+images/topDown
+  rotate: false
+  xy: 514, 909
+  size: 516, 263
+  orig: 516, 263
+  offset: 0, 0
+  index: -1
+images/topUp
+  rotate: false
+  xy: 1016, 1415
+  size: 517, 288
+  orig: 517, 288
+  offset: 0, 0
+  index: -1
+images/topUp2
+  rotate: false
+  xy: 1535, 1393
+  size: 500, 297
+  orig: 500, 297
+  offset: 0, 0
+  index: -1
+images/topUp3
+  rotate: true
+  xy: 1006, 405
+  size: 500, 301
+  orig: 500, 301
+  offset: 0, 0
+  index: -1
+images/topUp4
+  rotate: false
+  xy: 504, 212
+  size: 500, 330
+  orig: 500, 330
+  offset: 0, 0
+  index: -1
+images/topUp5
+  rotate: false
+  xy: 504, 544
+  size: 500, 363
+  orig: 500, 363
+  offset: 0, 0
+  index: -1
+images/topUp6
+  rotate: false
+  xy: 514, 1577
+  size: 500, 441
+  orig: 500, 441
+  offset: 0, 0
+  index: -1
+images/topUp7
+  rotate: false
+  xy: 2, 437
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
